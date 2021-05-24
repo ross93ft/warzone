@@ -1,0 +1,225 @@
+/*.chrome img{
+	image-rendering: -webkit-optimize-contrast;
+	@include mobile{
+	  image-rendering: auto;
+	}
+ }*/
+:root {
+  --bg-color: #ffffff;
+  --text-color: #191919;
+  --offset-color: #efefef;
+  --accent-color: #666666;
+  --bg-color-dark: #191919;
+  --text-color-dark: #ffffff;
+  --offset-color-dark: #2f2f2f;
+  --accent-color-dark: #848484;
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body.dark {
+  --bg-color: var(--bg-color-dark);
+  --text-color: var(--text-color-dark);
+  --offset-color: var(--offset-color-dark);
+  --accent-color: var(--accent-color-dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.oneAction {
+  margin-bottom: 20px;
+}
+
+.oneAction a {
+  background: var(--offset-color);
+  color: var(--text-color);
+  text-decoration: none;
+  display: block;
+  padding: 16px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  position: relative;
+}
+
+.oneAction a img {
+  width: 18px;
+  position: absolute;
+  right: 20px;
+  top: 16px;
+}
+
+.btn {
+  border: none;
+  display: block;
+  padding: 16px 22px;
+  width: 100%;
+  border-radius: 6px;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+.btn.green {
+  background: #349d43;
+}
+
+.btn.green:hover, .btn.green:focus {
+  background: #46b556;
+}
+
+.resultsHolder {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px 0 10px;
+}
+
+.resultsHolder > p {
+  font-size: 13px;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.resultsHolder > p.center {
+  text-align: center;
+}
+
+.resultsHolder .oneResult {
+  font-size: 0;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background: var(--offset-color);
+  padding: 22px 22px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.resultsHolder .oneResult h3 {
+  color: var(--accent-color);
+  font-size: 13px;
+  margin: 0 0 5px;
+  font-weight: normal;
+}
+
+.resultsHolder .oneResult p {
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.resultsHolder .oneResult .oneTeam {
+  margin-top: 20px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0;
+}
+
+footer p img {
+  position: relative;
+  top: 8px;
+  width: 25px;
+  margin-left: 6px;
+}
+
+footer p a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.onePlayer,
+.oneLocation {
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.onePlayer img,
+.oneLocation img {
+  width: 18px;
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  cursor: pointer;
+}
+
+.onePlayer p,
+.oneLocation p {
+  background: var(--offset-color);
+  color: var(--text-color);
+  text-decoration: none;
+  display: block;
+  padding: 16px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.onePlayer p input,
+.oneLocation p input {
+  display: none;
+}
+
+.onePlayer.off,
+.oneLocation.off {
+  opacity: 0.2;
+}
+
+.onePlayer.off img,
+.oneLocation.off img {
+  opacity: 0.5;
+}
+
+.playersList,
+.locationsList {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,112 @@
+[
+	{
+		"id": 1,
+		"name": "Airport",
+		"status": "on"
+	},
+	{
+		"id": 2,
+		"name": "Array",
+		"status": "on"
+	},
+	{
+		"id": 3,
+		"name": "Boneyard",
+		"status": "on"
+	},
+	{
+		"id": 4,
+		"name": "Downtown",
+		"status": "on"
+	},
+	{
+		"id": 5,
+		"name": "Factory",
+		"status": "on"
+	},
+	{
+		"id": 6,
+		"name": "Farmland",
+		"status": "on"
+	},
+	{
+		"id": 7,
+		"name": "Hills",
+		"status": "on"
+	},
+	{
+		"id": 8,
+		"name": "Hospital",
+		"status": "on"
+	},
+	{
+		"id": 9,
+		"name": "Lumber",
+		"status": "on"
+	},
+	{
+		"id": 10,
+		"name": "Military Base",
+		"status": "on"
+	},
+	{
+		"id": 11,
+		"name": "Park",
+		"status": "on"
+	},
+	{
+		"id": 12,
+		"name": "Port",
+		"status": "on"
+	},
+	{
+		"id": 13,
+		"name": "Prison",
+		"status": "on"
+	},
+	{
+		"id": 14,
+		"name": "Promenade East",
+		"status": "on"
+	},
+	{
+		"id": 15,
+		"name": "Promenade West",
+		"status": "on"
+	},
+	{
+		"id": 16,
+		"name": "Salt Mine",
+		"status": "on"
+	},
+	{
+		"id": 17,
+		"name": "Stadium",
+		"status": "on"
+	},
+	{
+		"id": 18,
+		"name": "Storage Town",
+		"status": "on"
+	},
+	{
+		"id": 19,
+		"name": "Summit",
+		"status": "on"
+	},
+	{
+		"id": 20,
+		"name": "Superstore",
+		"status": "on"
+	},
+	{
+		"id": 21,
+		"name": "Train Station",
+		"status": "on"
+	},
+	{
+		"id": 22,
+		"name": "TV Station",
+		"status": "on"
+	}
+]

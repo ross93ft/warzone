@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "Adam",
+		"status": "on"
+	},
+	{
+		"id": 2,
+		"name": "Chan",
+		"status": "on"
+	},
+	{
+		"id": 3,
+		"name": "George",
+		"status": "on"
+	},
+	{
+		"id": 4,
+		"name": "Midge",
+		"status": "on"
+	},
+	{
+		"id": 5,
+		"name": "Ross",
+		"status": "on"
+	},
+	{
+		"id": 6,
+		"name": "Steve",
+		"status": "on"
+	}
+]
