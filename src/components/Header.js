@@ -1,11 +1,11 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 //import Button from "./Button.js";
 
 export default function Header(props) {
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  //const [isDarkTheme, setIsDarkTheme] = useState(false);
 
-  useEffect(() => {
+  /*useEffect(() => {
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     if (prefersDark) {
       setIsDarkTheme(true);
@@ -19,7 +19,9 @@ export default function Header(props) {
     } else {
       document.body.classList.remove("dark");
     }
-  }, [isDarkTheme]);
+  }, [isDarkTheme]);*/
+
+  document.body.classList.add("dark");
 
   return (
     <header className="header">
